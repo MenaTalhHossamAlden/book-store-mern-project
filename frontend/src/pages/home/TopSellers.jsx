@@ -28,8 +28,6 @@ const TopSellers = () => {
       .then((data) => setBooks(data));
   }, []);
 
-  console.log(books);
-
   const filteredBooks =
     selectedCategory === "Choose a genre"
       ? books
