@@ -5,7 +5,6 @@ import { useForm } from "react-hook-form";
 
 const Register = () => {
   const [message, setMessage] = useState("");
-
   const {
     register,
     handleSubmit,
